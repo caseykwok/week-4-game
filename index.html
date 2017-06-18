@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars RPG Game</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1>Star Wars RPG</h1>
+		</div>
+		<div class="row main_menu">
+			<div class="col-sm-2 characters" id="luke_skywalker">
+				<p>Luke Skywalker</p>
+				<img class="image" src="assets/images/luke_skywalker.jpg" alt="Luke Skywalker">
+				<p class="hp"></p>
+			</div>
+			<div class="col-sm-2 characters" id="obi_wan">
+				<p>Obi-Wan Kenobi</p>
+				<img class="image" src="assets/images/obi_wan.jpg" alt="Obi-Wan">
+				<p class="hp"></p>
+			</div>
+			<div class="col-sm-2 characters" id="darth_sidious">
+				<p>Darth Sidious</p>
+				<img class="image" src="assets/images/darth_sidious.jpg" alt="Darth Sidious">
+				<p class="hp"></p>
+			</div>
+			<div class="col-sm-2 characters" id="darth_maul">
+				<p>Darth Maul</p>
+				<img class="image" src="assets/images/darth_maul.jpg" alt="Darth Maul">
+				<p class="hp"></p>
+			</div>
+<!-- 			<div class="col-sm-4">
+			</div> -->
+		</div>
+		<div class="row">
+			<h3>Your Character</h3>
+			<div class="your_character"></div>
+		</div>
+		<div class="row">
+			<h3>Enemies Available</h3>
+			<div class="enemies_available"></div>
+		</div>
+		<div class="row">
+			<h3>Fight Section</h3>
+			<button class="attack" type="button">Attack</button>
+		</div>
+		<div class="row">
+			<h3>Defender</h3>
+			<div class="defender"></div>
+		</div>
+		<div class="row">
+			<div class="result"></div>
+			<button class="reset" type="button">Reset</button>
+		</div>
+		<div class="row graveyard">
+			<h3>Graveyard</h3>
+		</div>
+		<br>
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

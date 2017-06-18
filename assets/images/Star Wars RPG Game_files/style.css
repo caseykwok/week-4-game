@@ -9,9 +9,9 @@ h1, h3 {
 }
 
 .image {
-	height: 100px;
+	height: 150px;
 	padding: 5px 0px;
-	width: 100px;
+	width: 150px;
 }
 
 p {
@@ -22,15 +22,14 @@ button {
 	font-family: 'Roboto Slab', serif;
 }
 
+/*#obi_wan, #luke_skywalker, #darth_sidious, #darth_maul {*/
 .characters {
 	background-color: #ffffff;
 	border: 3px solid #00c12d;
-	box-sizing: border-box;
 	cursor: pointer;
 	font-family: 'Roboto Slab', serif;
 	margin: 10px;
 	text-align: center;
-	width: auto;
 }
 
 .result {
@@ -44,6 +43,7 @@ button {
 	margin-top: 10px;
 }
 
-/*.graveyard {
-	display: none;
-}*/
+.clear {
+	background-color: #ffffff;
+	color: #000000;
+}
