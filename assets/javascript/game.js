@@ -135,7 +135,6 @@ $(document).ready(function () {
 	})
 
 	$(".reset").on("click", function() {
-		greetings();
 		resetCharacters();
 		resetPlacement();
 	})
